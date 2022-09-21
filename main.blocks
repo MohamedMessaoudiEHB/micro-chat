@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="_Z?~qPuqPuwZu5h#KB~?" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="amt:SsZsP0gq@^WQ45~1"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="^^./i(8BBsr@M6;c.*Bf"><field name="gesture">Gesture.Shake</field></block></value><statement name="DO0"><block type="device_show_leds" id="tTm%s5m$iUszUpTMP?J@"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="playMelody" id="msL,3P`;=fP=4p8Pv@7Q"><value name="melody"><shadow type="melody_editor" id="O[nlDdu@v534%W|ud]nS"><field name="melody">"C5 B A G F E D C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="JvCJ044YeWE/d+=$eh)I"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">0</field></shadow></value></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="7SlG%{jX?XUnZ{OfhF!x"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></statement></block></xml>
